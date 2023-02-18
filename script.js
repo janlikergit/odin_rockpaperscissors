@@ -12,4 +12,9 @@ function getComputerChoice(compChoice) {
     return result;
 }
 
-console.log(getComputerChoice(compChoice));
+let playerSelection = window.prompt("Enter Rock, Paper, or Scissors");
+let computerSelection = getComputerChoice(compChoice);
+
+function playRound(playerSelection, computerSelection) {
+
+}
