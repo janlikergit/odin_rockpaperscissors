@@ -70,8 +70,6 @@ function display (playerPoints, computerPoints) {
     }
 }
 
-let winCount
-
 for (let i = 0; i < 5; i++) {
     function game() {
         getPlayerChoice(playerSelection);
